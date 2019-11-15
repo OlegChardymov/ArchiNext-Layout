@@ -708,10 +708,6 @@ Media
     transition: transform 0.4s ease-in-out;
     transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
   }
-  .burger-menu--active {
-    -webkit-transform: translate(-19.5vw, -2.5vh);
-            transform: translate(-19.5vw, -2.5vh);
-  }
   /*Header Nav */
   body {
     overflow-x: hidden;
