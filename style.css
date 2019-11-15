@@ -758,12 +758,32 @@ Media
     width: 15%;
     height: 15%;
   }
+  /*Features*/
+  .feature p {
+    line-height: 1.5;
+  }
+  /*Introduction*/
+  .introduction__body p {
+    line-height: 1.5;
+  }
   /*Projects*/
   .project span {
     color: #fff;
     font-size: 1.3rem;
     opacity: 1;
     bottom: 3px;
+  }
+  /*Solution*/
+  .solution p {
+    line-height: 1.5;
+  }
+  /*Reviews*/
+  .reviews__body p {
+    line-height: 1.5;
+  }
+  /*News*/
+  .news__item p {
+    line-height: 1.5;
   }
 }
 
