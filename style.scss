@@ -28,6 +28,7 @@ html {
 body {
   background-color: $main-bg;
   font-family: "Raleway", sans-serif;
+  overflow-x: hidden;
 }
 
 /* ======
@@ -587,14 +588,12 @@ Media
   .burger-menu {
     display: block;
     z-index: 1;
-    position: absolute;
+    position: relative;
     transition: transform 0.4s ease-in-out;
   }
 
   /*Header Nav */
-  body {
-    overflow-x: hidden;
-  }
+
   .nav__links {
     display: flex;
     flex-direction: column;
@@ -804,7 +803,7 @@ Media
   /* Burger */
   .burger-menu__line {
     height: 2px;
-    margin: 4px;
+    margin: 4px 0;
   }
 
   .toggle .burger-menu__line--first {
