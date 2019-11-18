@@ -741,13 +741,14 @@ Media
     opacity: 0;
     -webkit-transition: opacity 0.4s ease-in-out;
     transition: opacity 0.4s ease-in-out;
+    z-index: -1;
   }
   .nav__links li {
     padding: 0;
   }
   .nav__links--active {
     opacity: 1;
-    z-index: 2;
+    z-index: 1;
   }
   .nav__link {
     font-size: 2rem;
