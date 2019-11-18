@@ -914,3 +914,10 @@ Media
     bottom: -50px;
   }
 }
+
+@media (max-width: 280px) {
+  /* Global */
+  html {
+    font-size: 8px;
+  }
+}
